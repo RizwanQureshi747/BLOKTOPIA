@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: auto;
+    height: 80px;
+    background-color: black;
+}
+.logo{
+    margin-left: 20px;
+    margin-top: -5px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 20px 0 20px;
+    color: white;
+    font-weight: 600;
+}
+nav button{
+    color: white;
+    width: 180px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: #EC00BF;
+    margin-top: -10px;
+}
+.fa-angle-down{
+    color:  #EC00BF;
+    margin-left: 10px;
+}
+nav ul li:hover{
+    color: #EC00BF;
+    cursor: pointer;
+}
+nav button:hover{
+    background-color: #C0009C;
+    cursor: pointer;
+    transition: 0.5s;
+}
+main{
+    height: 2400px;
+    padding: 50px;
+    background-color: black;
+}
+.roadmap{
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+.roadimg{
+    width: 600px;
+    height: 600px;
+    padding: 80px 80px ;
+}
+.roadimg img{
+    display: flex;
+    width: 520px;
+    border-radius: 20px;
+    height: 300px;
+}
+.roadcontent h1{
+    margin-top: 60px;
+    margin-left: 50px;
+    font-size: 70px;
+    color: white;
+    font-weight: bold;
+}
+.roadcontent h2{
+    font-size: 80px;
+    color: #EC00BF;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-top: -30px;
+}
+.roadcontent p{
+    color: white;
+    margin-left: 50px;
+    margin-top: 40px;
+    font-size: 18px;
+}
+.roadcontent button{
+    width: 220px;
+    height: 45px;
+    margin-left: 50px;
+    border-radius: 15px;
+    border: 2px solid #EC00BF;
+    background-color: #171717;
+    color: #EC00BF;
+}
+.roadcontent button:hover{
+    color: white;
+    background-color: #EC00BF;
+    transition: 0.5s;
+}
+.radiobtn{
+    width: 150px;
+    height: 40px;
+    border: 1px solid #1A1A1A;
+    margin-top: 150px;
+    margin-left: 50px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.radiobtn input{
+    width: 20px;
+    height: 20px;
+    color: #EC00BF;
+    border: 1px solid #EC00BF;
+}
+.bloktpia{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    text-align: center;
+    overflow: hidden;
+}
+.bloktpia img{
+    width: 500px;
+    height: 500px;
+}
+.screen{
+    width: 500px;
+    height: 400px;
+    margin-top: 100px;
+}
+.blokheading{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+.screen img{
+    width: 600px;
+    height: 400px;
+    background-size: cover;
+}
+.boxes{
+    width: 100%;
+    height: 750px;
+    /* background-color: yellow; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.earnbox, .playbox, .doabox, .nftbox{
+    width: 600px;
+    height: 350px;
+    border-radius: 20px;
+    border: 1px solid gray;
+    position: relative;
+}
+.earnbox{
+    background-image: url(./imges/earn_tile.jpg);
+    background-size: 600px;
+    background-position:  center;
+    background-repeat: no-repeat;
+}
+.playbox{
+    background-image: url(./imges/play_tile.jpg);
+    background-size: 600px;
+    background-position:  center;
+    background-repeat: no-repeat;
+}
+.doabox{
+    background-image: url(./imges/dao_tile.jpg);
+    background-size: 600px;
+    background-position:  center;
+    background-repeat: no-repeat;
+}
+.nftbox{
+    background-image: url(./imges/nft_tile.jpg);
+    background-size: 600px;
+    background-position:  center;
+    background-repeat: no-repeat;
+}
+.boxes h1{
+    width: 100%;
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+    position: absolute;
+    text-align: center;
+    background: none;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.boxes p{
+    width: 100%;
+    color: white;
+    font-size: 17px;
+    font-weight:  500;
+    word-spacing: 1px;
+    text-align: center;
+    background: none;
+    position: absolute;
+    margin-top: 120px;
+}
+.boxes button{
+    width: 150px;
+    height: 45px;
+    background-color: #171717;
+    border: 2px solid #EC00BF;
+    border-radius: 15px;
+    color: #EC00BF;
+    position: absolute;
+    bottom: 50px;
+    left: 230px;
+    font-weight: 600;
+}
+.boxes button:hover{
+    background-color: #EC00BF;
+    color: white;
+}
+.fa-money-bill-trend-up, .fa-gamepad{
+    background: none;
+}
+.blend{
+    background: none;
+    background-blend-mode: lighten;
+}
+.footer{
+    width: 100%;
+    height: 450px;
+    background-color: #1A1A1A;
+    border-top: 2px solid #353535;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.center{
+    width: 50%;
+    height: 50%;
+    /* background-color: tomato; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.link{
+    width: 400px;
+    height: 50px;
+    margin-top: 50px;
+}
+.links{
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.links i:hover{
+    color: #C0009C;
+    cursor: pointer;
+}
+.copywright{
+    width: 400px;
+    height: 20px;
+    color: white;
+    padding: 0 60px;
+    font-weight: 500;
+    text-align: center;
+}
+.policy{
+    width: 400px;
+    height: 20px;
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.policy p{
+    color: #EC00BF;
+    font-weight: 500;
+    cursor: pointer;
+}
+.disclaimer{
+    width: 1000px;
+    height: 200px;
+    /* background-color: yellow; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.disclaimer p{
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+}
+.footer p{
+    color: white;
+    font-size: 12px;
+}
